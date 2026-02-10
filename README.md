@@ -111,12 +111,6 @@ curl -X POST http://localhost:3000/bfhl -H "Content-Type: application/json" -d "
 3. Add env: `OFFICIAL_EMAIL`, `GEMINI_API_KEY`.
 4. Deploy and copy the URL.
 
-### Local testing (ngrok)
-
-```bash
-ngrok http 3000
-```
-
 Use the ngrok URL; keep the local server running. URLs change when ngrok restarts.
 
 ---
