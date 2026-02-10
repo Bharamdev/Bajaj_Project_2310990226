@@ -1,0 +1,26 @@
+{
+  "name": "chitkara-qualifier-bfhl",
+  "version": "1.0.0",
+  "description": "Chitkara Qualifier 1 - POST /bfhl and GET /health APIs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "chitkara",
+    "bfhl",
+    "api"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "serverless-http": "^3.2.0"
+  }
+}
