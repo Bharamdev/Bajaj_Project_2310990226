@@ -104,22 +104,6 @@ curl -X POST http://localhost:3000/bfhl -H "Content-Type: application/json" -d "
 ---
 
 ## Deployment
-
-### Vercel
-
-1. Push repo to GitHub (public).
-2. [Vercel](https://vercel.com) → Login → New Project → Import repository.
-3. Root directory: project root. Framework: Other. Build: leave default.
-4. Environment variables: `OFFICIAL_EMAIL`, `GEMINI_API_KEY`.
-5. Deploy. Use the generated URL (e.g. `https://your-app.vercel.app`).
-
-### Railway
-
-1. [Railway](https://railway.app) → New Project → Deploy from GitHub.
-2. Select this repository.
-3. Add variables: `OFFICIAL_EMAIL`, `GEMINI_API_KEY`.
-4. Deploy and copy the public URL.
-
 ### Render
 
 1. [Render](https://render.com) → New → Web Service → Connect repository.
